@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(29, 28, 28);
+}
+img{
+    position: relative;
+    left: 30px;
+    top: 1px;
+ 
+}
+header{
+    background-color: rgb(22, 22, 22);
+    padding: 20px;     
+    height: 70px;
+    border-radius: 100px;
+    position: fixed;
+    z-index: calc(2);
+    top: 10px;
+    width: 100%;
+        }
+ul{
+    list-style-type: disc;
+    position: relative;
+   display: flex;
+    left: 750px;
+    bottom:80px ;
+}
+.first {
+    color: rgb(255, 174, 0);
+    position: relative;
+    left: 130px;
+}
+.grand{
+    color: #ffffff;
+    position: relative;
+    left: 130px;
+    top: 70px;
+    font-size: 60px;
+}
+section{
+    position: relative;
+    top: 150px;
+    width: 50%;
+    float: left;
+}
+.loong{
+    position: relative;
+    left: 130px;
+    top: 235px;
+    color: grey;
+    font-size: 21px;
+}
+aside{ 
+    float: left;
+}
+.gussy {
+    width: 300px;
+    position: absolute; 
+    left: 800px; 
+    top: 150px; 
+    border-radius: 15px;
+}
+.BTN{
+    background-color: rgba(255, 208, 0, 0.774);
+    padding: 15px;
+    position: relative;
+    left: 130px;
+    top: 275px;
+    width: 130px;
+    border-radius: 10px;
+    z-index: calc(1);
+    border: 1px #000000 ;
+}
+nav{
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    top: 850px;
+    height: 700px;
+    width: 100%;
+}
+.lph{
+    position: relative;
+    top: 100PX;
+    border-radius: 15px;
+    width: 500px;
+
+}
+
+a{
+    color: rgba(255, 208, 0, 0.774);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}li{
+    list-style: none;
+    padding: 20px;
+}
+.dee{
+    color: #ffffff;
+}
+#logo {
+
+     width: 100px;
+     height: 60px;
+     border: solid 3px #000000;
+     border-radius: 20px;
+    
+}
