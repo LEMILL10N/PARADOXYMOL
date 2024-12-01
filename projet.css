@@ -74,8 +74,8 @@ li{
 nav{
     background-color: rgb(255, 255, 255);
     width: 20%;
-    height: 680px;
-    position: fixed;
+    height: 920px;
+    position: relative;
     border: 1px solid;
 }
 section{
@@ -87,64 +87,75 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.min img {
+.icons {
     width: 30px;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
+    position: relative;
+    right:20px;
 }
 .jnab{
-    list-style-type: disc;
     position: relative;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   top: 90px;
-   left: 30px;
-}
-.min{
-padding: 20px;
-width: 300px;
-height: 80px;
-position: relative;
-right: 60px;
-
-}
-.min .mog:hover {
-    background-color:blue;
-}
-.khat{
-    position: relative;
-    border:solid  1px ;
-    width: 79%;
-    left: 10%;
     top: 85px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.lis{
+ display: flex;
+padding: 20px;
 }
 .mog{
-background-color: rgb(255, 254, 254);
-border: 1px solid;
-border-radius: 10px;
-width: 200px;
-position: fixed;
-display: flex;
-align-items: center;
-justify-content: center;
+    width: 225px;
+    height: 50px;
+    border-radius: 50px;
+border-left: solid rgb(0, 0, 0) 20px;
+border-right: solid rgb(0, 0, 0) 20px;
+background-color: white;
+font-size: 20px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: relative;
 }
-.paa{
-    position: relative;
-    text-align: center;
+.lis :hover{
+    background-color: rgb(245, 222, 21);
 }
-.short{
+.khat{
+        position: relative;
+        border:solid  1px ;
+        width: 79%;
+        left: 10%;
+        top: 95px;
+    }
+.cuts{
     position: relative;
-    top: 82px;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content:center;
+    top: 11%;
 }
-.killer{
+.queen{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
     position: relative;
+    
 }
-.ADD{
+.funny{
     position: relative;
-    text-align: end;
-    left: 40px;
+    display: flex;
+    align-items: center;
+    top: 120px;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    padding: 30px;
+    width: 99%;
+    height: 100px;
+    border-radius:20px ;
+}
+.killer :hover{
+    background-color: grey;
+}
+.queen+h3 {
+    position: relative;
+    left: 20px;
 }
